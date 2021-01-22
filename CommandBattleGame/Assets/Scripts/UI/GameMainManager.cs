@@ -40,7 +40,6 @@ public class GameMainManager : MonoBehaviour
             case State.Start:
 
                 if (gameParamUIPresenter.CenterUIViewer.CheckCenterUIVisible(gameParamUIPresenter.WaitGaugeViewer.getWaitGaugeRate(0)))
-
                 {
                     GameState = State.Command;
                 }
